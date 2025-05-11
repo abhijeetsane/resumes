@@ -1,0 +1,58 @@
+\documentclass[10pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%\colorlet{awesome}{awesome-red}
+% \definecolor{awesome}{HTML}{3E6D9C}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+\name{}{Abhijeet Anant Sane}
+\position{Associate Director{\enskip\cdotp\enskip}Software Architect}
+\address{B-604 Sun Orion , S.No.54/9B/1 Near Sun Galaxy Apt. Wadgaon Budruk , Pune 411041 , India}
+
+\mobile{(+91) 935 937 3300}
+\email{abhijeet.sane@gmail.com}
+\dateofbirth{Oct 18th, 1978}
+\github{abhijeetsane}
+\linkedin{abhijeetsane}
+
+\hypersetup{
+    pdftitle={Resume : Abhijeet Anant Sane : 20+ years exp},
+    pdfsubject={Resume 2025 },
+    pdfauthor={Abhijeet Anant Sane},
+    pdfkeywords={Latest , Resume , 2 Page ,  2025}
+    }
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Abhijeet Sane~~~·~~~Résumé}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+
+\input{summary.tex}
+\input{skills.tex}
+\input{experience.tex}
+\input{education.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
